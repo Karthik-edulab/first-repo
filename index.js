@@ -16,21 +16,4 @@ async function getData(){
 
 getData()
 
-// async function dbConnect(){
-// let result=await client.connect();
-// let db=result.db(database);
-// return db.collection('products')
-// }
-
-// const main=async()=>{
-//     let data=await dbConnect();
-//        data=await data.find().toArray();
-//        console.log(data)
-// }
-// main()
-
-// dbConnect().then((res)=>{
-//    res.find().toArray().then((data)=>{
-//     console.log(data)
-//    })
-// })
+ 
